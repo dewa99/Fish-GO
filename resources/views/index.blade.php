@@ -23,6 +23,8 @@
 
 	<!-- Header -->
 
+<!-- MOBILE VIEW-->
+
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-start">
 			
@@ -31,72 +33,29 @@
 
 			<!-- Logo -->
 			<div class="header_logo">
-				<a href="#"><div>a<span>star</span></div></a>
+				<a href="#"><div>FISH<span>GO</span></div></a>
 			</div>
 
 			<!-- Navigation -->
 			<nav class="header_nav">
 				<ul class="d-flex flex-row align-items-center justify-content-start">
-					<li><a href="index.html">home</a></li>
-					<li><a href="#">woman</a></li>
-					<li><a href="#">man</a></li>
-					<li><a href="#">lookbook</a></li>
-					<li><a href="#">blog</a></li>
-					<li><a href="#">contact</a></li>
+				<li><a href="/">home</a></li>
+				<li><a href="#">kategori</a></li>
+				<li><a href="#">contact</a></li>
+				<li><a href="/daftarfish">daftar</a></li>
+				<li><a href="/loginfish">login </a></li>
 				</ul>
 			</nav>
 
 			<!-- Header Extra -->
 			<div class="header_extra ml-auto d-flex flex-row align-items-center justify-content-start">
 
-				<!-- Language -->
-				<div class="info_languages has_children">
-					<div class="language_flag"><img src="images/flag_1.svg" alt="https://www.flaticon.com/authors/freepik"></div>
-					<div class="dropdown_text">english</div>
-					<div class="dropdown_arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
-					
-					<!-- Language Dropdown Menu -->
-					 <ul>
-					 	<li><a href="#">
-				 			<div class="language_flag"><img src="images/flag_2.svg" alt="https://www.flaticon.com/authors/freepik"></div>
-							<div class="dropdown_text">french</div>
-					 	</a></li>
-					 	<li><a href="#">
-				 			<div class="language_flag"><img src="images/flag_3.svg" alt="https://www.flaticon.com/authors/freepik"></div>
-							<div class="dropdown_text">japanese</div>
-					 	</a></li>
-					 	<li><a href="#">
-				 			<div class="language_flag"><img src="images/flag_4.svg" alt="https://www.flaticon.com/authors/freepik"></div>
-							<div class="dropdown_text">russian</div>
-					 	</a></li>
-					 	<li><a href="#">
-				 			<div class="language_flag"><img src="images/flag_5.svg" alt="https://www.flaticon.com/authors/freepik"></div>
-							<div class="dropdown_text">spanish</div>
-					 	</a></li>
-					 </ul>
-
-				</div>
-
-				<!-- Currency -->
-				<div class="info_currencies has_children">
-					<div class="dropdown_text">usd</div>
-					<div class="dropdown_arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
-
-					<!-- Currencies Dropdown Menu -->
-					 <ul>
-					 	<li><a href="#"><div class="dropdown_text">EUR</div></a></li>
-					 	<li><a href="#"><div class="dropdown_text">YEN</div></a></li>
-					 	<li><a href="#"><div class="dropdown_text">GBP</div></a></li>
-					 	<li><a href="#"><div class="dropdown_text">CAD</div></a></li>
-					 </ul>
-
-				</div>
 
 				<!-- Cart -->
 				<div class="cart d-flex flex-row align-items-center justify-content-start">
 					<div class="cart_icon"><a href="cart.html">
 						<img src="images/bag.png" alt="">
-						<div class="cart_num">2</div>
+						<div class="cart_num">3</div>
 					</a></div>
 				</div>
 
@@ -111,48 +70,8 @@
 		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
 		<div class="menu_top d-flex flex-row align-items-center justify-content-start">
 
-			<!-- Language -->
-			<div class="info_languages has_children">
-				<div class="language_flag"><img src="images/flag_1.svg" alt="https://www.flaticon.com/authors/freepik"></div>
-				<div class="dropdown_text">english</div>
-				<div class="dropdown_arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
-				
-				<!-- Language Dropdown Menu -->
-				 <ul>
-				 	<li><a href="#">
-			 			<div class="language_flag"><img src="images/flag_2.svg" alt="https://www.flaticon.com/authors/freepik"></div>
-						<div class="dropdown_text">french</div>
-				 	</a></li>
-				 	<li><a href="#">
-			 			<div class="language_flag"><img src="images/flag_3.svg" alt="https://www.flaticon.com/authors/freepik"></div>
-						<div class="dropdown_text">japanese</div>
-				 	</a></li>
-				 	<li><a href="#">
-			 			<div class="language_flag"><img src="images/flag_4.svg" alt="https://www.flaticon.com/authors/freepik"></div>
-						<div class="dropdown_text">russian</div>
-				 	</a></li>
-				 	<li><a href="#">
-			 			<div class="language_flag"><img src="images/flag_5.svg" alt="https://www.flaticon.com/authors/freepik"></div>
-						<div class="dropdown_text">spanish</div>
-				 	</a></li>
-				 </ul>
 
-			</div>
-
-			<!-- Currency -->
-			<div class="info_currencies has_children">
-				<div class="dropdown_text">usd</div>
-				<div class="dropdown_arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
-
-				<!-- Currencies Dropdown Menu -->
-				 <ul>
-				 	<li><a href="#"><div class="dropdown_text">EUR</div></a></li>
-				 	<li><a href="#"><div class="dropdown_text">YEN</div></a></li>
-				 	<li><a href="#"><div class="dropdown_text">GBP</div></a></li>
-				 	<li><a href="#"><div class="dropdown_text">CAD</div></a></li>
-				 </ul>
-
-			</div>
+		
 
 		</div>
 		<div class="menu_search">
@@ -165,11 +84,11 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">home</a></li>
+				<li class="menu_mm"><a href="/">home</a></li>
 				<li class="menu_mm"><a href="#">kategori</a></li>
 				<li class="menu_mm"><a href="#">contact</a></li>
-				<li class="menu_mm"><a href="#">daftar</a></li>
-				<li class="menu_mm"><a href="blog.html"login</a></li>
+				<li class="menu_mm"><a href="/daftarfish">daftar</a></li>
+				<li class="menu_mm"><a href="/loginfish">login </a></li>
 				
 			</ul>
 		</nav>
@@ -209,11 +128,11 @@
 		<!-- Sidebar Navigation -->
 		<nav class="sidebar_nav">
 			<ul>
-				<li><a href="index.html">home<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+				<li><a href="/">home<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
 				<li><a href="#">kategori<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
 				<li><a href="#">contact<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
-				<li><a href="#">daftar<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
-				<li><a href="blog.html">login<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+				<li><a href="/daftarfish">daftar<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+				<li><a href="/loginfish">login<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
 				
 		</nav>
 
@@ -229,7 +148,7 @@
 		<div class="cart d-flex flex-row align-items-center justify-content-start">
 			<div class="cart_icon"><a href="cart.html">
 				<img src="images/bag.png" alt="">
-				<div class="cart_num">2</div>
+				<div class="cart_num">3</div>
 			</a></div>
 			<div class="cart_text">bag</div>
 			<div class="cart_price">Rp.150000 (1)</div>
@@ -261,30 +180,30 @@
 
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style='background-image: url(http://localhost:8000/images/makarel.jpg);'></div>
-					<div class="home_content_container">
+					<div class="background_image" style='background-image: url(/images/payangan.jpg);' ></div>
+					<div class="home_content_container" id="payangan">
 						<div class="home_content">
 							<div class="home_discount d-flex flex-row align-items-end justify-content-start">
-								<div class="home_discount_num">20</div>
-								<div class="home_discount_text">Discount on the</div>
+								<div class="home_discount_num" style="color: white">20</div>
+								<div class="home_discount_text" style="color: white">Discount</div>
 							</div>
-							<div class="home_title">New Collection</div>
-							<div class="button button_1 home_button trans_200"><a href="categories.html">Shop NOW!</a></div>
+							<div class="home_title" style="color: white">All Ikan Payangan</div>
+							<div class="button button_1 home_button trans_200"><a href="categories.html">Belanja Sekarang!</a></div>
 						</div>
 					</div>
 				</div>
 
 				<!-- Slide -->
 				<div class="owl-item">
-					<div class="background_image" style='background-image: url("{{ asset("/images/makarel.jpg") }}");'></div>
+					<div class="background_image" style='background-image: url(/images/puger.jpg);'></div>
 					<div class="home_content_container">
-						<div class="home_content">
+						<div class="home_content" id="payangan">
 							<div class="home_discount d-flex flex-row align-items-end justify-content-start">
-								<div class="home_discount_num">20</div>
-								<div class="home_discount_text">Discount on the</div>
+								<div class="home_discount_num" style="color: white">20%</div>
+								<div class="home_discount_text" style="color: white">Discount</div>
 							</div>
-							<div class="home_title">New Collection</div>
-							<div class="button button_1 home_button trans_200"><a href="categories.html">Shop NOW!</a></div>
+							<div class="home_title" style="color: white">All Ikan Puger</div>
+							<div class="button button_1 home_button trans_200"><a href="categories.html">Belanja Sekarang!</a></div>
 						</div>
 					</div>
 				</div>
@@ -345,7 +264,7 @@
 							<ul class="categories_list d-flex flex-row align-items-center justify-content-start">
 								<li><a href="categories.html">new arrivals</a></li>
 								<li><a href="categories.html">recommended</a></li>
-								<li><a href="categories.html">best sellers</a></li>
+								<li><a href="categories.html">more protein</a></li>
 							</ul>
 						</div>
 					</div>
@@ -367,12 +286,12 @@
 							<div class="product grid-item hot">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/product_1.jpg" alt="">
+										<img src="images/kakapmerah_1.jpg" alt="">
 										<div class="product_tag">hot</div>
 									</div>
 									<div class="product_content text-center">
-										<div class="product_title"><a href="product.html">long red shirt</a></div>
-										<div class="product_price">$39.90</div>
+										<div class="product_title"><a href="/product">Kakap Merah! Puger</a></div>
+										<div class="product_price">Rp.15000</div>
 										<div class="product_button ml-auto mr-auto trans_200"><a href="#">add to cart</a></div>
 									</div>
 								</div>	
@@ -381,7 +300,7 @@
 							<!-- Product -->
 							<div class="product grid-item">
 								<div class="product_inner">
-									<div class="product_image"><img src="images/product_2.jpg" alt=""></div>
+									<div class="product_image"><img src="images/kakapmerah_1.jpg" alt=""></div>
 									<div class="product_content text-center">
 										<div class="product_title"><a href="product.html">hype grey shirt</a></div>
 										<div class="product_price">$19.50</div>
@@ -394,7 +313,7 @@
 							<div class="product grid-item sale">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/product_3.jpg" alt="">
+										<img src="images/kakapmerah_1.jpg" alt="">
 										<div class="product_tag">sale</div>
 									</div>
 									<div class="product_content text-center">
@@ -409,7 +328,7 @@
 							<div class="product grid-item">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/product_4.jpg" alt="">
+										<img src="images/kakapmerah_1.jpg" alt="">
 									</div>
 									<div class="product_content text-center">
 										<div class="product_title"><a href="product.html">denim men shirt</a></div>
@@ -423,7 +342,7 @@
 							<div class="product grid-item">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/product_5.jpg" alt="">
+										<img src="images/kakapmerah_1.jpg" alt="">
 									</div>
 									<div class="product_content text-center">
 										<div class="product_title"><a href="product.html">long red shirt</a></div>
@@ -437,7 +356,7 @@
 							<div class="product grid-item new">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/product_6.jpg" alt="">
+										<img src="images/kakapmerah_1.jpg" alt="">
 										<div class="product_tag">new</div>
 									</div>
 									<div class="product_content text-center">
@@ -452,7 +371,7 @@
 							<div class="product grid-item">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/product_7.jpg" alt="">
+										<img src="images/kakapmerah_1.jpg" alt="">
 									</div>
 									<div class="product_content text-center">
 										<div class="product_title"><a href="product.html">long sleeve jacket</a></div>
@@ -466,7 +385,7 @@
 							<div class="product grid-item sale">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/product_8.jpg" alt="">
+										<img src="images/kakapmerah_1.jpg" alt="">
 										<div class="product_tag">sale</div>
 									</div>
 									<div class="product_content text-center">
@@ -484,30 +403,9 @@
 		</div>
 	</div>
 
-	<!-- Newsletter -->
 
-	<div class="newsletter">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter.jpg" data-speed="0.8"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2">
-					<div class="newsletter_content text-center">
-						<div class="newsletter_title_container">
-							<div class="newsletter_title">subscribe to our newsletter</div>
-							<div class="newsletter_subtitle">we won't spam, we promise!</div>
-						</div>
-						<div class="newsletter_form_container">
-							<form action="#" id="newsletter_form" class="newsletter_form">
-								<input type="email" class="newsletter_input" placeholder="your e-mail here" required="required">
-								<button class="newsletter_button">submit</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
+	
 	<!-- Footer -->
 
 	<footer class="footer">
@@ -521,20 +419,12 @@
 							<div class="footer_about">
 								<!-- Logo -->
 								<div class="footer_logo">
-									<a href="#"><div>a<span>star</span></div></a>
+									<a href="#"><div>Fish<span>GO</span></div></a>
 								</div>
 								<div class="footer_about_text">
-									<p>Donec vitae purus nunc. Morbi faucibus erat sit amet congue mattis. Nullam fringilla faucibus urna, id dapibus erat iaculis ut. Integer ac sem.</p>
+									<p>Toko online ikan segala jenis di Pantai Jember, mulai dari Tuna,Makarel,Tongkol dan lain - lain</p>
 								</div>
-								<div class="cards">
-									<ul class="d-flex flex-row align-items-center justify-content-start">
-										<li><a href="#"><img src="images/card_1.jpg" alt=""></a></li>
-										<li><a href="#"><img src="images/card_2.jpg" alt=""></a></li>
-										<li><a href="#"><img src="images/card_3.jpg" alt=""></a></li>
-										<li><a href="#"><img src="images/card_4.jpg" alt=""></a></li>
-										<li><a href="#"><img src="images/card_5.jpg" alt=""></a></li>
-									</ul>
-								</div>
+								
 							</div>
 						</div>
 
@@ -547,48 +437,17 @@
 										<li><a href="#">About us</a></li>
 										<li><a href="#">Track Orders</a></li>
 										<li><a href="#">Returns</a></li>
-										<li><a href="#">Jobs</a></li>
 										<li><a href="#">Shipping</a></li>
-										<li><a href="#">Blog</a></li>
 										<li><a href="#">Partners</a></li>
 										<li><a href="#">Bloggers</a></li>
 										<li><a href="#">Support</a></li>
 										<li><a href="#">Terms of Use</a></li>
-										<li><a href="#">Press</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 
-						<!-- Blog -->
-						<div class="col-xxl-3 col-md-6 footer_col">
-							<div class="footer_blog">
-								<div class="footer_title">blog</div>
-								<div class="footer_blog_container">
-
-									<!-- Blog Item -->
-									<div class="footer_blog_item d-flex flex-row align-items-start justify-content-start">
-										<div class="footer_blog_image"><a href="blog.html"><img src="images/footer_blog_1.jpg" alt=""></a></div>
-										<div class="footer_blog_content">
-											<div class="footer_blog_title"><a href="blog.html">what shoes to wear</a></div>
-											<div class="footer_blog_date">june 06, 2018</div>
-											<div class="footer_blog_link"><a href="blog.html">Read More</a></div>
-										</div>
-									</div>
-
-									<!-- Blog Item -->
-									<div class="footer_blog_item d-flex flex-row align-items-start justify-content-start">
-										<div class="footer_blog_image"><a href="blog.html"><img src="images/footer_blog_2.jpg" alt=""></a></div>
-										<div class="footer_blog_content">
-											<div class="footer_blog_title"><a href="blog.html">trends this year</a></div>
-											<div class="footer_blog_date">june 06, 2018</div>
-											<div class="footer_blog_link"><a href="blog.html">Read More</a></div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
+						
 
 						<!-- Contact -->
 						<div class="col-xxl-3 col-md-6 footer_col">
@@ -596,10 +455,10 @@
 								<div class="footer_title">contact</div>
 								<div class="footer_contact_list">
 									<ul>
-										<li class="d-flex flex-row align-items-start justify-content-start"><span>C.</span><div>Your Company Ltd</div></li>
-										<li class="d-flex flex-row align-items-start justify-content-start"><span>A.</span><div>1481 Creekside Lane  Avila Beach, CA 93424, P.O. BOX 68</div></li>
-										<li class="d-flex flex-row align-items-start justify-content-start"><span>T.</span><div>+53 345 7953 32453</div></li>
-										<li class="d-flex flex-row align-items-start justify-content-start"><span>E.</span><div>office@youremail.com</div></li>
+										<li class="d-flex flex-row align-items-start justify-content-start"><span>C.</span><div>FishGO</div></li>
+										<li class="d-flex flex-row align-items-start justify-content-start"><span>A.</span><div>Jenggawah Jember</div></li>
+										<li class="d-flex flex-row align-items-start justify-content-start"><span>T.</span><div>+8224556778</div></li>
+										<li class="d-flex flex-row align-items-start justify-content-start"><span>E.</span><div>johnPK@gmail.com</div></li>
 									</ul>
 								</div>
 							</div>
@@ -630,13 +489,7 @@
 										<div class="footer_social_title">google +</div>
 									</div>
 								</a>
-								<!-- Pinterest -->
-								<a href="#">
-									<div class="footer_social_item d-flex flex-row align-items-center justify-content-start">
-										<div class="footer_social_icon"><i class="fa fa-pinterest" aria-hidden="true"></i></div>
-										<div class="footer_social_title">pinterest</div>
-									</div>
-								</a>
+								
 								<!-- Facebook -->
 								<a href="#">
 									<div class="footer_social_item d-flex flex-row align-items-center justify-content-start">
@@ -651,20 +504,7 @@
 										<div class="footer_social_title">twitter</div>
 									</div>
 								</a>
-								<!-- YouTube -->
-								<a href="#">
-									<div class="footer_social_item d-flex flex-row align-items-center justify-content-start">
-										<div class="footer_social_icon"><i class="fa fa-youtube" aria-hidden="true"></i></div>
-										<div class="footer_social_title">youtube</div>
-									</div>
-								</a>
-								<!-- Tumblr -->
-								<a href="#">
-									<div class="footer_social_item d-flex flex-row align-items-center justify-content-start">
-										<div class="footer_social_icon"><i class="fa fa-tumblr-square" aria-hidden="true"></i></div>
-										<div class="footer_social_title">tumblr</div>
-									</div>
-								</a>
+								
 							</div>
 						</div>
 					</div>
@@ -672,22 +512,7 @@
 			</div>				
 		</div>
 
-		<!-- Credits -->
-		<div class="credits">
-			<div class="section_container">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="credits_content d-flex flex-row align-items-center justify-content-end">
-								<div class="credits_text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 	</footer>
 
 </div>

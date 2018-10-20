@@ -30,6 +30,8 @@
 2. Body and some general stuff
 *********************************/
 
+
+
 *
 {
 	margin: 0;
@@ -1079,7 +1081,7 @@ section
 }
 .home_title
 {
-	font-size: 100px;
+	font-size: 80px;
 	line-height: 1.2;
 	color: #414141;
 	font-weight: 300;
