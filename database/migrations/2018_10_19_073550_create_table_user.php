@@ -15,12 +15,12 @@ class CreateTableUser extends Migration
     {
         Schema::create('user', function (Blueprint $table) {
             $table->increments('id_user');
-            $table->char('name_lengkap',100);
-            $table->string('username'50);
+            $table->char('nama_lengkap',100);
+            $table->string('username',50);
             $table->string('password',50);
             $table->string('email')->unique();
-            $table->string('alamat'100);
-            $table->string('no_telepon'20);
+            $table->string('alamat',100);
+            $table->string('no_telepon',20);
             $table->enum('jenis_kelamin',['laki-laki','perempuan'])->default('laki-laki');
             $table->timestamps();
         });

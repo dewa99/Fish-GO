@@ -15,7 +15,7 @@ class CreateTableKatalog extends Migration
     {
         Schema::create('katalog', function (Blueprint $table) {
             $table->increments('id_katalog');
-            $table->string('keterangan'100);
+            $table->string('keterangan',100);
         });
     }
 

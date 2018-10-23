@@ -15,7 +15,8 @@ class CreateTableKeranjang extends Migration
     {
         Schema::create('keranjang', function (Blueprint $table) {
             $table->increments('id_keranjang');
-            $table->
+            $table->unsignedInteger('id_barang');
+            $table->foreign('id_barang')->references('id_barang')->on('barang');
         });
     }
 

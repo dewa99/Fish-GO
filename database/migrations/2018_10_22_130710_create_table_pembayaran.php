@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableOrder extends Migration
+class CreateTablePembayaran extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,14 @@ class CreateTableOrder extends Migration
      */
     public function up()
     {
-        Schema::create('order', function (Blueprint $table) {
-            $table->increments('id_order');
+        Schema::create('pembayaran', function (Blueprint $table) {
+            $table->increments('id_pembayaran');
+            $table->unsignedInteger('id_tagihan');
+            $table->foreign('id_tagihan')->references('id_pengiriman')->on('pengiriman');
             $table->unsignedInteger('id_user');
             $table->foreign('id_user')->references('id_user')->on('user');
-            $table->date('tanggal_order');
-            $table->string('keterangan',500);
-            $table->mediumInteger('total');
-            $table->mediumInteger('jumlah_harga');
+            $table->dateTime('tanggal_pembayaran');
+            $table->mediumInteger('jumlah_pembayaran');
         });
     }
 
@@ -31,6 +31,6 @@ class CreateTableOrder extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('order');
+        Schema::dropIfExists('pembayaran');
     }
 }

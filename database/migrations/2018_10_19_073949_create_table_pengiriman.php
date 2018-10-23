@@ -14,8 +14,9 @@ class CreateTablePengiriman extends Migration
     public function up()
     {
         Schema::create('pengiriman', function (Blueprint $table) {
-            $table->increments('id');
-            $table->timestamps();
+            $table->increments('id_pengiriman');
+            $table->dateTime('tanggal_pengiriman');
+            $table->string('bukti_pengiriman',50);
         });
     }
 
