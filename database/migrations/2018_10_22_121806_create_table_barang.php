@@ -20,8 +20,13 @@ class CreateTableBarang extends Migration
             $table->char('nama_barang',50);
             $table->mediumInteger('harga_barang');
             // foreign key
+<<<<<<< HEAD
             $table->foreign('id_order')->references('id_order')->on('order');
             $table->foreign('id_katalog')->references('id_katalog')->on('katalog');
+=======
+            $table->foreign('id_order')->references('id_order')->on('order')->onDelete('CASECADE')->onUpdate('CASECADE');
+            $table->foreign('id_katalog')->references('id_katalog')->on('katalog')->onDelete('CASECADE')->onUpdate('CASECADE');
+>>>>>>> 0231c328451cb4b434f65fb58e4eb8ef3462400d
         });
     }
 
